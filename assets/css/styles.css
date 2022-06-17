@@ -40,7 +40,6 @@ main {
   margin: 0 auto;
   max-width: 768px;
   padding: 24px;
-  text-align: center;
 }
 
 [name] {
@@ -48,24 +47,44 @@ main {
   font-weight: 400;
   line-height: 1.1;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 [bio] {
   margin: 0 auto;
   max-width: 576px;
+  text-align: center;
 }
 
-[social-icons] {
-  margin: 16px;
+[skills] {
+  margin: 64px auto;
+  max-width: 384px;
 }
 
-[social-icon] {
-  margin-right: 16px;
-  text-decoration: none;
+[skills] h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
 }
 
-[social-icon] img {
-  width: 48px;
+[skill] [up] {
+  display: flex;
+  font-size: 1.25rem;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+[skill] [bar] {
+  background-color: lightgrey;
+  border-radius: 8px;
+  height: 16px;
+  margin-bottom: 24px;
+}
+
+[skill] [level] {
+  background-color: #1aa260;
+  border-radius: 8px 0 0 8px;
+  height: 16px;
 }
 
 footer {
@@ -85,6 +104,19 @@ footer [up] {
 [follow] {
   font-size: 1.2rem;
   margin: 24px 0;
+}
+
+[social-icons] {
+  margin: 16px;
+}
+
+[social-icon] {
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+[social-icon] img {
+  width: 48px;
 }
 
 footer [down] {
