@@ -5,12 +5,15 @@
 }
 
 body {
+  background-color: #fff;
+  color: #333;
+  display: flex;
+  flex-direction: column;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  color: #333;
-  background-color: #fff;
+  min-height: 100vh;
 }
 
 [hero] {
@@ -67,6 +70,7 @@ main {
 
 footer {
   color: white;
+  margin-top: auto;
   text-align: center;
 }
 
