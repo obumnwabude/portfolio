@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+[hero] {
+  padding-bottom: 80px;
+  position: relative;
+}
+
+[hero] [up] {
+  background-color: #f2f2f2;
+  height: 352px;
+}
+
+img[profile] {
+  border: 8px solid white;
+  border-radius: 50%;
+  left: calc((100vw - 288px) / 2);
+  position: absolute;
+  right: calc((100vw - 288px) / 2);
+  top: 144px;
+  width: 288px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 768px;
+  padding: 24px;
+  text-align: center;
+}
+
+[name] {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+[bio] {
+  margin: 0 auto;
+  max-width: 576px;
+}
+
+[social-icons] {
+  margin: 16px;
+}
+
+[social-icon] {
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+[social-icon] img {
+  width: 48px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+footer [up] {
+  box-shadow: inset 200000px 200000px 200000px rgba(0, 0, 0, 0.6);
+  background-image: url(../images/footer-bg.jpg);
+  background-size: cover;
+  padding: 24px;
+  position: relative;
+}
+
+[follow] {
+  font-size: 1.2rem;
+  margin: 24px 0;
+}
+
+footer [down] {
+  background-color: black;
+  padding: 24px;
+}
+
+footer [down] hr {
+  max-width: 320px;
+  margin: 16px auto;
+}
