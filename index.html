@@ -12,9 +12,32 @@
     <title>GDSC UTG</title>
   </head>
   <body>
-    <div hero>
+    <nav>
+      <div>
+        <p>
+          <span>GDSC UTG</span>
+          <img
+            src="assets/icons/menu.svg"
+            alt="menu"
+            menu-icon
+            role="button"
+            tabindex="1"
+          />
+        </p>
+
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#social">Social</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div hero id="about">
       <div up></div>
-      <img src="assets/images/profile-picture.png" alt="" profile />
+      <div profile-photo>
+        <img src="assets/images/profile-picture.png" alt="" />
+      </div>
     </div>
     <main>
       <h1 profile-name>GDSC UTG</h1>
@@ -23,7 +46,7 @@
         students bridge the gap between theory and practice.
       </p>
 
-      <section>
+      <section id="skills">
         <h2>My Skills</h2>
         <div skill>
           <div up><span>HTML</span><span>90%</span></div>
@@ -39,7 +62,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="contact">
         <h2>Contact Me</h2>
         <form contact>
           <label>
@@ -61,7 +84,7 @@
     <footer>
       <div up>
         <p follow>Let's keep in touch! Please follow on social media.</p>
-        <div social-icons>
+        <div social-icons id="social">
           <a
             href="https://linkedin.com/"
             social-icon
