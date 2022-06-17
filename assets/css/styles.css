@@ -20,6 +20,11 @@ body {
   min-height: 100vh;
 }
 
+a {
+  color: #333;
+  text-decoration: none;
+}
+
 nav {
   background-color: #ffffff0d;
   backdrop-filter: blur(5px);
@@ -56,14 +61,13 @@ nav ul {
 }
 
 nav ul a {
-  color: #333;
   display: block;
   font-size: 1.25rem;
   padding: 8px 16px;
-  text-decoration: none;
 }
 
-nav ul a:hover {
+nav ul a:hover,
+[project] [know-more] a:hover {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 }
@@ -117,13 +121,17 @@ main {
 
 section {
   margin: 64px auto;
-  max-width: 384px;
 }
 
 section h2 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 24px;
+}
+
+#skills,
+#contact {
+  max-width: 384px;
 }
 
 [skill] [up] {
@@ -144,6 +152,16 @@ section h2 {
   background-color: #33b679;
   border-radius: 8px 0 0 8px;
   height: 16px;
+}
+
+[project] [know-more] {
+  margin-bottom: 16px;
+}
+
+[project] [know-more] a { 
+  margin-left: -16px;;
+  padding: 8px 16px;
+  text-decoration: underline;
 }
 
 [contact] label {
@@ -204,7 +222,6 @@ footer [up] {
 
 [social-icon] {
   margin-right: 16px;
-  text-decoration: none;
 }
 
 [social-icon] img {
