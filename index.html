@@ -17,12 +17,13 @@
       <img src="assets/images/profile-picture.png" alt="" profile />
     </div>
     <main>
-      <h1 name>GDSC UTG</h1>
+      <h1 profile-name>GDSC UTG</h1>
       <p bio>
         Google Developer Student Clubs University of The Gambia. Helping
         students bridge the gap between theory and practice.
       </p>
-      <div skills>
+
+      <section>
         <h2>My Skills</h2>
         <div skill>
           <div up><span>HTML</span><span>90%</span></div>
@@ -36,7 +37,26 @@
           <div up><span>JavaScript</span><span>80%</span></div>
           <div bar><div level style="width: 80%"></div></div>
         </div>
-      </div>
+      </section>
+
+      <section>
+        <h2>Contact Me</h2>
+        <form contact>
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" required rows="5"></textarea>
+          </label>
+          <button>Submit</button>
+        </form>
+      </section>
     </main>
     <footer>
       <div up>
@@ -89,6 +109,7 @@
         <hr />
       </div>
     </footer>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
 <!DOCTYPE html>
